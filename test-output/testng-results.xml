@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T04:42:35 GMT-06:00" name="AutomationSuite" finished-at="2026-03-09T04:44:58 GMT-06:00" duration-ms="143021">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T04:42:35 GMT-06:00" name="FlightTest" finished-at="2026-03-09T04:44:58 GMT-06:00" duration-ms="143021">
+      <class name="tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:42:36 GMT-06:00" name="setup" finished-at="2026-03-09T04:42:39 GMT-06:00" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:42:39 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:42:50 GMT-06:00" duration-ms="11404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston         ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street21]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123456789012]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:42:50 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:42:52 GMT-06:00" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:42:52 GMT-06:00" name="setup" finished-at="2026-03-09T04:42:54 GMT-06:00" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:42:54 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:43:06 GMT-06:00" duration-ms="11636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Alice Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Park Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[234567]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[234567890123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Alice Smith]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:06 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:43:06 GMT-06:00" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:06 GMT-06:00" name="setup" finished-at="2026-03-09T04:43:09 GMT-06:00" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:09 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:43:20 GMT-06:00" duration-ms="11492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Diego       ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Michael Brown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lake View]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Diner's Club]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[345678901234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Michael Brown]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:20 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:43:20 GMT-06:00" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:20 GMT-06:00" name="setup" finished-at="2026-03-09T04:43:23 GMT-06:00" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:23 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:43:34 GMT-06:00" duration-ms="11468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico City     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dublin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Emma Wilson]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Green Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Austin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[456789012345]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Emma Wilson]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:34 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:43:34 GMT-06:00" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:34 GMT-06:00" name="setup" finished-at="2026-03-09T04:43:37 GMT-06:00" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:37 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:43:48 GMT-06:00" duration-ms="11470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[David Miller]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hill Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[567890]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[567890123456]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[David Miller]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:48 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:43:49 GMT-06:00" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:49 GMT-06:00" name="setup" finished-at="2026-03-09T04:43:51 GMT-06:00" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:43:51 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:44:02 GMT-06:00" duration-ms="11234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sophia Taylor]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[River Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Seattle]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[WA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[678901]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[678901234567]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Sophia Taylor]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:02 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:44:02 GMT-06:00" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:02 GMT-06:00" name="setup" finished-at="2026-03-09T04:44:05 GMT-06:00" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:05 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:44:16 GMT-06:00" duration-ms="11180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Philadelphia    ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cairo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chris Evans]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street 5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Miami]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[789012]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[789012345678]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Chris Evans]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:16 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:44:16 GMT-06:00" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:16 GMT-06:00" name="setup" finished-at="2026-03-09T04:44:18 GMT-06:00" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:18 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:44:29 GMT-06:00" duration-ms="11309" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dublin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street 1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Miami]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[789012]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Same City]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FAIL]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Intentional failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Intentional failure
+at org.testng.Assert.fail(Assert.java:111)
+at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:30 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:44:30 GMT-06:00" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:30 GMT-06:00" name="setup" finished-at="2026-03-09T04:44:32 GMT-06:00" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:32 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:44:43 GMT-06:00" duration-ms="10974" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daniel Lee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street 2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Denver]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[890123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Daniel Lee]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FAIL]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Intentional failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Intentional failure
+at org.testng.Assert.fail(Assert.java:111)
+at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:43 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:44:44 GMT-06:00" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:44 GMT-06:00" name="setup" finished-at="2026-03-09T04:44:46 GMT-06:00" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:46 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T04:44:57 GMT-06:00" duration-ms="11301" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico City     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[James White]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street 4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[111111111111]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[James White]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FAIL]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Intentional failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Intentional failure
+at org.testng.Assert.fail(Assert.java:111)
+at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T04:44:57 GMT-06:00" name="tearDown" finished-at="2026-03-09T04:44:58 GMT-06:00" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightBookingTest -->
+    </test> <!-- FlightTest -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
