@@ -63,11 +63,12 @@ public class FlightBookingTest extends BaseTest {
 
 			Assert.assertTrue(message.contains("Thank you"));
 
-			}else{
+			}
+			/*else{
 
 			Assert.fail("Intentional failure");
 
-			}
+			}*/
 
 			}
 

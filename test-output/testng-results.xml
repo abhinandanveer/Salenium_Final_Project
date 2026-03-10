@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-09T05:37:22 GMT-06:00" name="AutomationSuite" finished-at="2026-03-09T05:39:49 GMT-06:00" duration-ms="147205">
+  <suite started-at="2026-03-09T22:33:39 GMT-06:00" name="Default suite" finished-at="2026-03-09T22:36:16 GMT-06:00" duration-ms="156624">
     <groups>
     </groups>
-    <test started-at="2026-03-09T05:37:22 GMT-06:00" name="FlightTest" finished-at="2026-03-09T05:39:49 GMT-06:00" duration-ms="147205">
+    <test started-at="2026-03-09T22:33:39 GMT-06:00" name="Default test" finished-at="2026-03-09T22:36:16 GMT-06:00" duration-ms="156624">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:23 GMT-06:00" name="setup" finished-at="2026-03-09T05:37:26 GMT-06:00" duration-ms="3375" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:33:40 GMT-06:00" name="setup" finished-at="2026-03-09T22:33:45 GMT-06:00" duration-ms="4665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:26 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:37:38 GMT-06:00" duration-ms="11913" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:33:45 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:33:56 GMT-06:00" duration-ms="11076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,15 +77,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:38 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:37:38 GMT-06:00" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:33:56 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:33:56 GMT-06:00" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:38 GMT-06:00" name="setup" finished-at="2026-03-09T05:37:41 GMT-06:00" duration-ms="3235" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:33:56 GMT-06:00" name="setup" finished-at="2026-03-09T22:34:01 GMT-06:00" duration-ms="4541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:41 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:37:53 GMT-06:00" duration-ms="11857" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:01 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:34:12 GMT-06:00" duration-ms="11298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,15 +151,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:53 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:37:54 GMT-06:00" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:12 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:34:12 GMT-06:00" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:54 GMT-06:00" name="setup" finished-at="2026-03-09T05:37:56 GMT-06:00" duration-ms="2479" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:12 GMT-06:00" name="setup" finished-at="2026-03-09T22:34:15 GMT-06:00" duration-ms="2855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:37:56 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:38:08 GMT-06:00" duration-ms="11715" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:15 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:34:26 GMT-06:00" duration-ms="10765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,15 +225,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:08 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:38:08 GMT-06:00" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:26 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:34:26 GMT-06:00" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:08 GMT-06:00" name="setup" finished-at="2026-03-09T05:38:10 GMT-06:00" duration-ms="2117" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:26 GMT-06:00" name="setup" finished-at="2026-03-09T22:34:30 GMT-06:00" duration-ms="4195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:10 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:38:22 GMT-06:00" duration-ms="12141" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:30 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:34:44 GMT-06:00" duration-ms="13287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,15 +299,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:22 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:38:23 GMT-06:00" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:44 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:34:44 GMT-06:00" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:23 GMT-06:00" name="setup" finished-at="2026-03-09T05:38:25 GMT-06:00" duration-ms="2220" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:44 GMT-06:00" name="setup" finished-at="2026-03-09T22:34:47 GMT-06:00" duration-ms="3333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:25 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:38:36 GMT-06:00" duration-ms="11696" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:47 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:34:59 GMT-06:00" duration-ms="11501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,15 +373,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:36 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:38:37 GMT-06:00" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:59 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:34:59 GMT-06:00" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:37 GMT-06:00" name="setup" finished-at="2026-03-09T05:38:39 GMT-06:00" duration-ms="2103" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:34:59 GMT-06:00" name="setup" finished-at="2026-03-09T22:35:03 GMT-06:00" duration-ms="3847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:39 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:38:51 GMT-06:00" duration-ms="12018" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:03 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:35:13 GMT-06:00" duration-ms="10530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,15 +447,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:51 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:38:51 GMT-06:00" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:13 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:35:14 GMT-06:00" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:51 GMT-06:00" name="setup" finished-at="2026-03-09T05:38:53 GMT-06:00" duration-ms="2082" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:14 GMT-06:00" name="setup" finished-at="2026-03-09T22:35:16 GMT-06:00" duration-ms="2469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:38:53 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:39:05 GMT-06:00" duration-ms="11650" status="PASS">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:16 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:35:29 GMT-06:00" duration-ms="12838" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -521,15 +521,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:05 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:39:05 GMT-06:00" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:29 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:35:29 GMT-06:00" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:05 GMT-06:00" name="setup" finished-at="2026-03-09T05:39:07 GMT-06:00" duration-ms="2399" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:29 GMT-06:00" name="setup" finished-at="2026-03-09T22:35:33 GMT-06:00" duration-ms="3450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:07 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:39:18 GMT-06:00" duration-ms="11064" status="FAIL">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:33 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:35:45 GMT-06:00" duration-ms="12239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -592,45 +592,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure
-at org.testng.Assert.fail(Assert.java:111)
-at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:19 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:39:19 GMT-06:00" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:45 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:35:45 GMT-06:00" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:19 GMT-06:00" name="setup" finished-at="2026-03-09T05:39:20 GMT-06:00" duration-ms="1637" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:45 GMT-06:00" name="setup" finished-at="2026-03-09T22:35:48 GMT-06:00" duration-ms="2668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:20 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:39:32 GMT-06:00" duration-ms="11973" status="FAIL">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:35:48 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:36:00 GMT-06:00" duration-ms="12124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,45 +666,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure
-at org.testng.Assert.fail(Assert.java:111)
-at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:33 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:39:33 GMT-06:00" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:36:00 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:36:02 GMT-06:00" duration-ms="1846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:33 GMT-06:00" name="setup" finished-at="2026-03-09T05:39:35 GMT-06:00" duration-ms="2561" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:36:02 GMT-06:00" name="setup" finished-at="2026-03-09T22:36:04 GMT-06:00" duration-ms="2521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:35 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T05:39:47 GMT-06:00" duration-ms="11583" status="FAIL">
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:36:04 GMT-06:00" name="bookFlight" data-provider="flightData" finished-at="2026-03-09T22:36:16 GMT-06:00" duration-ms="11147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,41 +740,14 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure
-at org.testng.Assert.fail(Assert.java:111)
-at tests.FlightBookingTest.bookFlight(FlightBookingTest.java:68)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@dd05255]" started-at="2026-03-09T05:39:47 GMT-06:00" name="tearDown" finished-at="2026-03-09T05:39:49 GMT-06:00" duration-ms="1975" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7e6f74c]" started-at="2026-03-09T22:36:16 GMT-06:00" name="tearDown" finished-at="2026-03-09T22:36:16 GMT-06:00" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.FlightBookingTest -->
-    </test> <!-- FlightTest -->
-  </suite> <!-- AutomationSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
